@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Azeret Mono", monospace;
+  }
+  
+  /* banner section styles */
+  
+  .banner-container {
+    max-width: 1640px;
+    height: 652px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+  
+    background-image: url("../assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+  }
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 582px;
+  }
+  
+  .banner-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .banner-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    text-align: center;
+  }
+  .btn-1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 7px;
+    margin: 32px 0px;
+    padding: 21px 24px 21px 24px;
+    background: rgb(13, 19, 33);
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* second section styles */
+  
+  .second-section-container {
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+  }
+  .second-section-content{
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 97px 80px;
+    border: solid yellow;
+  }
+  .second-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+  }
+  .second-describtion{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+  }
+  
