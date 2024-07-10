@@ -233,14 +233,11 @@ body {
   text-align: left;
 }
 .hero-3 {
-  
   width: 1140px;
   height: 777px;
   /* border: 2px solid rgb(24, 21, 21); */
   margin-bottom: 2rem;
   margin: 0 auto;
-
-  
 }
 
 .pro-title {
@@ -265,13 +262,14 @@ body {
   box-sizing: border-box;
   border: 2rem solid rgba(13, 19, 33, 0.2);
 }
-.hero-4{
+.hero-4 {
   width: 1140px;
-  height: 463px;
+  height: 700px;
   margin: 0 auto;
   padding-top: 10rem;
+  /* border: 1px solid black; */
 }
-.hero4-main{
+.hero4-main {
   text-align: center;
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -281,9 +279,8 @@ body {
   letter-spacing: 0%;
   margin-bottom: 1rem;
   /* margin-top: 1rem; */
-
 }
-.hero4-description{
+.hero4-description {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
@@ -294,23 +291,22 @@ body {
   margin-bottom: 2rem;
   margin: 0 auto;
 }
-.banner-group{
-position: static;
-width: 364px;
-height: 300px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 40px;
-flex: none;
-margin-top: 2rem;
-flex-grow: 0;
-margin: 0px 24px;
-border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
+.banner-group {
+  position: static;
+  width: 364px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 24px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
 }
-.banner-title{
+.banner-title {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 24px;
@@ -318,9 +314,9 @@ background: rgba(255, 76, 30, 0.05);
   line-height: 36px;
   text-align: left;
   margin-top: 1rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
-.banneer-description{
+.banneer-description {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
@@ -329,6 +325,112 @@ background: rgba(255, 76, 30, 0.05);
   text-align: left;
   margin-bottom: 1rem;
 }
-.banner-main{
+.banner-main {
   display: flex;
+}
+.hero-5 {
+  width: 1140px;
+  height: 314px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  background-image: url(../assets/handshake.jpg);
+  background-color: rgb(83, 73, 73);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+.hero-5-main {
+  position: static;
+  width: 1044px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+.hero5-title {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 2rem;
+}
+.hero5-description {
+  color: rgba(239, 237, 237, 0.997);
+  font-family: Azeret Mono;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 2rem;
+}
+.feedback-form .form {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 400px;
+  margin-top: 2rem;
+  margin-right: 1.5rem;
+}
+.feedback-form button {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #e7baba;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-main {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+}
+
+.footer-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-title {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+  text-align: left;
+}
+
+.footer-icon {
+  text-align: right;
+}
+
+.footer-icon img {
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.footer-icon img:hover {
+  transform: scale(1.2);
 }
