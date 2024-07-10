@@ -76,8 +76,9 @@
 
   }
   .btn-3{
+    font-size: medium;
         font-weight: 800;
-        width: 7rem;
+        width: 10rem;
         height: 2rem;
         box-sizing: border-box;
         border: 1px solid rgb(13, 19, 33);
@@ -101,7 +102,6 @@
   .second-section-container {
     width: 1140px;
     height: 1395px;
-    border: 2px solid red;
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -117,7 +117,6 @@
     order: 0;
     flex-grow: 0;
     margin: 97px 80px;
-    border: solid yellow;
   }
   .second-title{
     color: rgb(13, 19, 33);
@@ -186,7 +185,6 @@
     align-self: stretch;
     flex-grow: 0;
     margin: 32px 0px;
-    border: 2px solid green;
     width: 946px;
     height: 336px;
     border-radius: 16px;
@@ -237,4 +235,42 @@ margin: 32px 0px;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+}
+.hero-3{
+    position: absolute;
+    width: 1140px;
+    height: 777px;
+    left: 148px;
+    right: 152px;
+    top: 2340px;
+    bottom: 2128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.pro-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.pro-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.video{
+    box-sizing: border-box;
+    border: 2rem solid rgba(13, 19, 33, 0.2);
+    
+
 }
